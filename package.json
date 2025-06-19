@@ -1,0 +1,16 @@
+{
+  "name": "xess",
+  "version": "1.0.0",
+  "description": "",
+  "main": "j",
+  "scripts": {
+    "start": "node ./server/index.js"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "color-2-name": "^1.4.4",
+    "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.51.0"
+  }
+}
