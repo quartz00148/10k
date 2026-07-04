@@ -180,7 +180,7 @@ function rgbToHex(r, g, b) {
     return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
 }
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 global.clients = {};
 
